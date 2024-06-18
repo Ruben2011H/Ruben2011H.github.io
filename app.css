@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.sec1{
+    width: 100%;
+    height: 850px;
+    font-family: sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 15px;  
+}
+.sec1 .box{
+    background-color: #fff;
+    margin: 100px 10px;
+    width: 450px;
+    height: 420px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px 0px;
+}
+.sec1 .box i{
+    background-color: #0f66f4;
+    font-size: 5rem;
+    margin: 20px 0px ;
+}
+.sec1 .box h2{
+    background-color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 0px 30px 0px;
+}
+.sec1 .box p{
+    background-color: #fff;
+    color: #c0c0c0 !important;
+    width: 340px;
+    padding: 0px 30px 0px 60px;
+}
+.sec1 .box hr{
+    border-color: #0f66f4 ;
+    margin: 30px 0px 30px 0px;
+}
+.sec1 .box button{
+    width: 170px;
+    height: 70px;
+    background-color: #0f66f4;
+    color: #fff;
+    border: #fff;
+    border-radius: 50px;
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+.sec1 .box button:hover{
+    background-color: #0559e0;
+
+}
+@media screen and (max-width:992px) {
+    .sec1 .box {
+        width: 280px;
+    }
+    .sec1 .box p{
+        width: 300px;
+        padding: 0px 30px 0px 0px ;
+    }
+
+}
+@media screen and (max-width:576px) {
+   .container{
+       display: block;
+   }
+   .sec1 .box{
+       width: 440px;
+   }
+   .sec1 .box p{
+       width: 400px;
+       padding: 0px 0px 0px 30px;
+   }
+   
+
+
+}
+@media screen and (max-width:300px){
+    .sec1 .box {
+        width: 300px;
+    }
+    .sec1 .box p{
+        width: 260px;
+    }
+}
